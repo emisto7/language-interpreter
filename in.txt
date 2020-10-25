@@ -1,0 +1,23 @@
+LET count
+READ count
+LET buff
+LET min
+LET num
+IF count < 1
+	PRINT vavedi_po_golyamo_chislo
+ELSE
+	num = 1
+	READ buff
+	min = buff
+	WHILE num < count
+		READ buff
+		IF buff < min
+			min = buff
+		ELSE
+		ENDIF
+		num = num + 1
+	DONE
+ENDIF
+PRINT min
+
+
